@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Object-oriented Programming — Henrique de Almeida | UoEO</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">Henry99s<span class="cursor-blink">_</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#modules">Modules</a></li>
+        <li><a href="index.html#skills">Skills</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+        <li><a href="https://github.com/Henry99s" target="_blank" class="nav-cta">GitHub ↗</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </nav>
+
+  <!-- MODULE HERO -->
+  <section class="module-hero">
+    <div class="container">
+      <a href="index.html#modules" class="breadcrumb">← Back to Modules</a>
+      <div class="module-badge">MOD 04 · Completed · 79%</div>
+      <h1 class="module-hero-title">Object-oriented<br /><em>Programming</em></h1>
+      <p class="module-hero-sub">University of Essex Online · CertHE Computer Science · Level 4 · Tutor: Dr Anupam Mazumdar</p>
+      <div class="module-meta-row">
+        <span class="meta-chip">Abstraction</span>
+        <span class="meta-chip">Encapsulation</span>
+        <span class="meta-chip">Inheritance</span>
+        <span class="meta-chip">Polymorphism</span>
+        <span class="meta-chip">Design Patterns</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- PAGE NAV -->
+  <div class="page-nav-bar">
+    <div class="container">
+      <nav class="page-nav">
+        <a href="#outcomes">Learning Outcomes</a>
+        <a href="#artefacts">Artefacts</a>
+        <a href="#reflection">Reflection</a>
+        <a href="#skills-matrix">Skills Matrix</a>
+      </nav>
+    </div>
+  </div>
+
+  <!-- LEARNING OUTCOMES -->
+  <section class="section" id="outcomes">
+    <div class="container">
+      <div class="section-eyebrow">Section 01</div>
+      <h2 class="section-title">Learning Outcomes</h2>
+      <p class="section-intro">
+        This module introduced the object-oriented paradigm, building on the procedural
+        foundations of the previous module and reshaping how I approach software design.
+      </p>
+
+      <div class="outcomes-grid">
+        <div class="outcome-card">
+          <div class="outcome-num">LO1</div>
+          <h4>Abstraction</h4>
+          <p>Design abstract data types and interfaces using Abstract Base Classes to define clear contracts between components.</p>
+        </div>
+        <div class="outcome-card">
+          <div class="outcome-num">LO2</div>
+          <h4>Encapsulation</h4>
+          <p>Apply information hiding through private attributes, property getters and setters, and integrity validation.</p>
+        </div>
+        <div class="outcome-card">
+          <div class="outcome-num">LO3</div>
+          <h4>Inheritance</h4>
+          <p>Build class hierarchies that share and extend behaviour, using constructors and super() correctly.</p>
+        </div>
+        <div class="outcome-card">
+          <div class="outcome-num">LO4</div>
+          <h4>Polymorphism</h4>
+          <p>Implement method overriding and runtime method dispatch to write flexible, extensible code.</p>
+        </div>
+        <div class="outcome-card">
+          <div class="outcome-num">LO5</div>
+          <h4>Design Patterns</h4>
+          <p>Apply software engineering concepts and design patterns within object-oriented systems, including composition.</p>
+        </div>
+        <div class="outcome-card">
+          <div class="outcome-num">LO6</div>
+          <h4>Professional Communication</h4>
+          <p>Explain technical concepts clearly through code, documentation, presentation slides, and a recorded video.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ARTEFACTS -->
+  <section class="section section-dark" id="artefacts">
+    <div class="container">
+      <div class="section-eyebrow">Section 02</div>
+      <h2 class="section-title">Artefacts</h2>
+      <p class="section-intro">
+        Two assessed components made up this module: an individual presentation built around a
+        coded system, and an end-of-module test combining code and written answers.
+      </p>
+
+      <!-- Artefact 1 -->
+      <div class="artefact-card">
+        <div class="artefact-header">
+          <div>
+            <div class="artefact-num">Artefact 01 · Mid Module · Individual Presentation</div>
+            <h3 class="artefact-title">Online Shopping System — OOP Demonstration</h3>
+          </div>
+          <span class="grade-pill grade-distinction">78%</span>
+        </div>
+        <div class="artefact-body">
+          <div class="artefact-desc">
+            <h4>Description</h4>
+            <p>
+              An object-oriented Online Shopping System built in Python, accompanied by a
+              presentation (PowerPoint) and a recorded video explaining the concepts. The system
+              demonstrates all four pillars of OOP through a realistic e-commerce workflow:
+              products, customers, and order processing with discount logic.
+            </p>
+            <p>
+              Technical highlights include <strong>abstraction</strong> via Abstract Base Classes
+              (an Orderable interface and an abstract User class); <strong>encapsulation</strong>
+              through a private price attribute with a property getter/setter and validation;
+              <strong>inheritance</strong> through a PremiumCustomer subclass; and
+              <strong>polymorphism</strong> through method overriding of the discount calculation,
+              dispatched at runtime. The code also uses type hints, composition, and constructors
+              and destructors, with Harvard-referenced sources cited throughout.
+            </p>
+            <h4>Skills Demonstrated</h4>
+            <div class="tag-row">
+              <span class="tag tag-sm">Abstract Base Classes</span>
+              <span class="tag tag-sm">Property Encapsulation</span>
+              <span class="tag tag-sm">Inheritance</span>
+              <span class="tag tag-sm">Runtime Polymorphism</span>
+              <span class="tag tag-sm">Composition</span>
+              <span class="tag tag-sm">Technical Presentation</span>
+            </div>
+            <h4>Tutor Feedback (summary)</h4>
+            <div class="feedback-box">
+              <p>A very strong and coherent understanding of core OOP principles, clearly aligned with the brief. Application was described as a significant strength — a functional, well-integrated system demonstrating real-world workflow and interface-driven design, reflecting high practical competence. Strong engagement with academic and professional sources. Suggested improvements: more explicit critical evaluation of limitations and trade-offs, and greater system complexity such as persistence.</p>
+            </div>
+          </div>
+          <div class="artefact-meta">
+            <div class="meta-block"><span class="meta-label">Language</span><span>Python (OOP)</span></div>
+            <div class="meta-block"><span class="meta-label">Format</span><span>Code + slides + video</span></div>
+            <div class="meta-block"><span class="meta-label">Result</span><span class="status-distinction">78%</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Artefact 2 -->
+      <div class="artefact-card">
+        <div class="artefact-header">
+          <div>
+            <div class="artefact-num">Artefact 02 · End of Module · Individual Test</div>
+            <h3 class="artefact-title">End of Module Individual Test</h3>
+          </div>
+          <span class="grade-pill grade-distinction">80%</span>
+        </div>
+        <div class="artefact-body">
+          <div class="artefact-desc">
+            <h4>Description</h4>
+            <p>
+              An end-of-module individual test completed directly on the learning platform,
+              combining practical coding tasks with written answers. The test assessed
+              understanding of object-oriented principles, design patterns, software engineering
+              concepts, and collaborative development practices.
+            </p>
+            <h4>Skills Demonstrated</h4>
+            <div class="tag-row">
+              <span class="tag tag-sm">OOP Principles</span>
+              <span class="tag tag-sm">Design Patterns</span>
+              <span class="tag tag-sm">Software Engineering</span>
+              <span class="tag tag-sm">Applied Coding</span>
+            </div>
+            <h4>Tutor Feedback (summary)</h4>
+            <div class="feedback-box">
+              <p>Very good understanding of OOP principles, design patterns and software engineering concepts, explained clearly and supported with relevant examples and references. Practical implementations described as functional, well structured, and effectively applying software engineering theory to realistic scenarios, with good awareness of modularity and design patterns. References integrated appropriately to support the technical explanations.</p>
+            </div>
+          </div>
+          <div class="artefact-meta">
+            <div class="meta-block"><span class="meta-label">Format</span><span>Code + written (on platform)</span></div>
+            <div class="meta-block"><span class="meta-label">Result</span><span class="status-distinction">80%</span></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- REFLECTION -->
+  <section class="section" id="reflection">
+    <div class="container container-narrow">
+      <div class="section-eyebrow">Section 03</div>
+      <h2 class="section-title">Reflective Piece</h2>
+      <p class="section-intro">
+        Written using the <strong>3 W's framework</strong> (What / So What / What Next),
+        as recommended by the UoEO Department of Computing.
+      </p>
+
+      <div class="reflection-block">
+        <div class="reflection-label">What? — Description</div>
+        <div class="reflection-content">
+          <p>
+            This module was, in fact, a little more difficult for me than the procedural one,
+            because I knew nothing about OOP until now — so everything was new. I had to adapt and
+            change the way I see code. I learned concepts that took me a while to fully understand,
+            such as inheritance and polymorphism. The module was assessed through an individual
+            presentation (a coded Online Shopping System, with a PowerPoint and a recorded video
+            explaining the concepts) and an end-of-module individual test combining code and
+            written answers.
+          </p>
+        </div>
+      </div>
+
+      <div class="reflection-block">
+        <div class="reflection-label">So What? — Analysis</div>
+        <div class="reflection-content">
+          <p>
+            Although the subject was harder to grasp at first, I found that programming with OOP was
+            actually much easier in practice. While procedural programming is simpler overall, OOP
+            makes everything easier when it comes to the actual act of programming — especially in
+            terms of reasoning through a problem. Having just built a fully procedural project in the
+            previous module, I could feel how the procedural fundamentals underpinned my
+            understanding of object-oriented design.
+          </p>
+          <p>
+            This was my strongest programming module so far. A large part of that came from lessons
+            carried over from earlier modules — particularly referencing, which I now applied
+            confidently from the start, citing sources such as PEP 8, the Python documentation, and
+            academic texts directly within my code. Being almost a year into the course, I can see
+            how I am gradually adapting and improving — not just my technical skills, but my
+            understanding of how to learn and apply what I have learned.
+          </p>
+          <p>
+            In my Online Shopping System, I demonstrated the four pillars of OOP: abstraction
+            through Abstract Base Classes (an Orderable interface), encapsulation through private
+            attributes with property getters and setters, inheritance through a PremiumCustomer
+            subclass, and polymorphism through method overriding of the discount logic, dispatched
+            at runtime.
+          </p>
+        </div>
+      </div>
+
+      <div class="reflection-block">
+        <div class="reflection-label">What Next? — Action Plan</div>
+        <div class="reflection-content">
+          <p>
+            I feel much more prepared to program now, and even more curious about other areas, such
+            as data and other programming languages. I will certainly use OOP for the rest of my
+            life in programming. That said, having only just started Web Application Development, I
+            do not yet know how to implement these concepts within HTML and CSS — and connecting
+            object-oriented thinking to web technologies is something I look forward to exploring.
+            With both procedural and object-oriented paradigms now in my toolkit, I am better
+            equipped to choose the right approach for each situation.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS MATRIX -->
+  <section class="section section-dark" id="skills-matrix">
+    <div class="container">
+      <div class="section-eyebrow">Section 04</div>
+      <h2 class="section-title">Professional Skills Matrix &amp; Action Plan</h2>
+      <p class="section-intro">
+        An assessment of the skills gained or enhanced during this module, with evidence and
+        a forward-looking action plan.
+      </p>
+
+      <div class="matrix-table-wrap">
+        <table class="matrix-table">
+          <thead>
+            <tr>
+              <th>Skill</th>
+              <th>Before</th>
+              <th>After</th>
+              <th>Evidence</th>
+              <th>Action Plan</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Object-oriented Design</td>
+              <td><span class="level level-none">None</span></td>
+              <td><span class="level level-inter">Proficient</span></td>
+              <td>Online Shopping System using all four OOP pillars</td>
+              <td>Apply OOP to larger systems and connect it to web technologies</td>
+            </tr>
+            <tr>
+              <td>Abstraction &amp; Interfaces</td>
+              <td><span class="level level-none">None</span></td>
+              <td><span class="level level-inter">Competent</span></td>
+              <td>Abstract Base Classes (Orderable, User) defining contracts</td>
+              <td>Explore protocols and more advanced interface design</td>
+            </tr>
+            <tr>
+              <td>Encapsulation</td>
+              <td><span class="level level-none">None</span></td>
+              <td><span class="level level-inter">Proficient</span></td>
+              <td>Private attributes with property getters/setters and validation</td>
+              <td>Apply consistently to protect data integrity in all systems</td>
+            </tr>
+            <tr>
+              <td>Inheritance &amp; Polymorphism</td>
+              <td><span class="level level-none">None</span></td>
+              <td><span class="level level-inter">Competent</span></td>
+              <td>PremiumCustomer subclass; runtime method overriding</td>
+              <td>Practise designing class hierarchies that avoid over-engineering</td>
+            </tr>
+            <tr>
+              <td>Referencing in Code</td>
+              <td><span class="level level-basic">Developing</span></td>
+              <td><span class="level level-inter">Proficient</span></td>
+              <td>Confident Harvard citations from the start (PEP 8, docs, texts)</td>
+              <td>Maintain as standard practice; broaden to peer-reviewed sources</td>
+            </tr>
+            <tr>
+              <td>Technical Presentation</td>
+              <td><span class="level level-basic">Basic</span></td>
+              <td><span class="level level-inter">Competent</span></td>
+              <td>Slides and recorded video explaining the coded system</td>
+              <td>Reduce content density for clearer delivery (per feedback)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="swot-grid">
+        <div class="swot-card swot-s">
+          <div class="swot-label">Strengths</div>
+          <ul>
+            <li>Strongest programming module so far (79% total)</li>
+            <li>Applied referencing confidently from the start — a carried-over lesson</li>
+            <li>Strong grasp of all four OOP pillars in a working system</li>
+            <li>Connects procedural foundations to object-oriented thinking</li>
+          </ul>
+        </div>
+        <div class="swot-card swot-w">
+          <div class="swot-label">Weaknesses</div>
+          <ul>
+            <li>OOP concepts (inheritance, polymorphism) took time to grasp at first</li>
+            <li>Could include more critical evaluation of trade-offs (per feedback)</li>
+            <li>Presentations can be dense — clarity could be improved</li>
+          </ul>
+        </div>
+        <div class="swot-card swot-o">
+          <div class="swot-label">Opportunities</div>
+          <ul>
+            <li>OOP is foundational for almost all modern software development</li>
+            <li>Growing curiosity about data and new programming languages</li>
+            <li>Both paradigms now available to choose the best tool per task</li>
+          </ul>
+        </div>
+        <div class="swot-card swot-t">
+          <div class="swot-label">Threats</div>
+          <ul>
+            <li>Connecting OOP to web technologies is still unfamiliar territory</li>
+            <li>Full-time shift work continues to limit study time</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="index.html" class="footer-back">← Back to Portfolio Home</a>
+      <span class="footer-note">Henrique de Almeida · UoEO CertHE Computer Science · 2026</span>
+    </div>
+  </footer>
+
+  <script>
+    window.addEventListener('scroll', () => {
+      document.getElementById('nav').classList.toggle('nav-scrolled', window.scrollY > 40);
+    });
+    document.querySelector('.nav-toggle').addEventListener('click', () => {
+      document.querySelector('.nav-links').classList.toggle('nav-open');
+    });
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('.page-nav a');
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          navLinks.forEach(l => l.classList.remove('active'));
+          const link = document.querySelector(`.page-nav a[href="#${e.target.id}"]`);
+          if (link) link.classList.add('active');
+        }
+      });
+    }, { rootMargin: '-40% 0px -55% 0px' });
+    sections.forEach(s => io.observe(s));
+  </script>
+</body>
+</html>

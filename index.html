@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Henrique de Almeida — e-Portfolio | UoEO Computer Science</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">Henry99s<span class="cursor-blink">_</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#modules">Modules</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="https://github.com/Henry99s" target="_blank" class="nav-cta">GitHub ↗</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-inner">
+      <div class="terminal-line">
+        <span class="terminal-prompt">~/eportfolio</span>
+        <span class="terminal-cmd" id="typed-text"></span><span class="terminal-cursor">▋</span>
+      </div>
+      <h1 class="hero-title">Henrique<br /><em>de Almeida</em></h1>
+      <p class="hero-subtitle">CertHE Computer Science · University of Essex Online<br />
+        <span class="hero-location">📍 Gainsborough, Lincolnshire, UK</span>
+      </p>
+      <div class="hero-tags">
+        <span class="tag">Python</span>
+        <span class="tag">HTML &amp; CSS</span>
+        <span class="tag">JavaScript</span>
+        <span class="tag">Academic Research</span>
+        <span class="tag">Git &amp; GitHub</span>
+      </div>
+      <div class="hero-actions">
+        <a href="#modules" class="btn btn-primary">View Modules</a>
+        <a href="https://github.com/Henry99s" target="_blank" class="btn btn-ghost">GitHub Profile ↗</a>
+      </div>
+    </div>
+    <div class="hero-grid-bg" aria-hidden="true"></div>
+  </section>
+
+  <!-- ABOUT ME -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-eyebrow">About Me</div>
+      <h2 class="section-title">Building from the ground up.</h2>
+
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I am a <strong>Computer Science student at the University of Essex Online</strong>,
+            working towards a CertHE (Level 4) qualification. Originally from Brazil, I have been
+            living and working in the United Kingdom for approximately eight years, holding
+            settled status under the EU Settlement Scheme.
+          </p>
+          <p>
+            My academic journey began with a deliberate choice: to understand computing
+            <em>from first principles</em>. The programme has taken me from research and
+            professional practice, through mathematics and statistics, into procedural and
+            object-oriented programming, and now into web application development.
+          </p>
+          <p>
+            I am a self-directed learner who values evidence-based thinking and honest, rigorous
+            work. I document my progress carefully — this e-portfolio is itself part of that
+            practice — and I am building towards a transition into a technical or data-focused
+            role in the technology sector.
+          </p>
+        </div>
+
+        <div class="about-card-col">
+          <div class="info-card">
+            <div class="info-card-title">Academic Profile</div>
+            <ul class="info-list">
+              <li><span class="info-label">Programme</span><span>CertHE Computer Science</span></li>
+              <li><span class="info-label">Level</span><span>Level 4 · 120 Credits</span></li>
+              <li><span class="info-label">Institution</span><span>University of Essex Online</span></li>
+              <li><span class="info-label">Platform</span><span>Kaplan Open Learning</span></li>
+              <li><span class="info-label">Current Module</span><span>Web Application Development</span></li>
+            </ul>
+          </div>
+
+          <div class="info-card">
+            <div class="info-card-title">Professional Background</div>
+            <ul class="info-list">
+              <li><span class="info-label">Location</span><span>Gainsborough, UK</span></li>
+              <li><span class="info-label">Status</span><span>UK Settled Status</span></li>
+              <li><span class="info-label">Languages</span><span>Portuguese · English</span></li>
+              <li><span class="info-label">GitHub</span><a href="https://github.com/Henry99s" target="_blank">Henry99s ↗</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MODULES -->
+  <section class="section section-dark" id="modules">
+    <div class="container">
+      <div class="section-eyebrow">Academic Modules</div>
+      <h2 class="section-title">Programme Modules</h2>
+      <p class="section-intro">CertHE Computer Science consists of eight Level 4 modules. Each completed module has a dedicated page with learning outcomes, artefacts, reflective writing, and a professional skills matrix.</p>
+
+      <div class="modules-grid">
+
+        <!-- MOD 01 — Completed -->
+        <a href="module-01-research-practice.html" class="module-card module-active">
+          <div class="module-status">Completed · 74%</div>
+          <div class="module-number">MOD 01</div>
+          <h3 class="module-name">Research and<br />Professional Practice</h3>
+          <p class="module-desc">Introduction to academic research, methodology, Harvard referencing, and scholarly writing.</p>
+          <div class="module-stack">
+            <span class="tag tag-sm">Research</span>
+            <span class="tag tag-sm">Academic Writing</span>
+          </div>
+          <div class="module-arrow">View Module →</div>
+        </a>
+
+        <!-- MOD 02 — Completed -->
+        <a href="module-02-maths-statistics.html" class="module-card module-active">
+          <div class="module-status">Completed · 80.5%</div>
+          <div class="module-number">MOD 02</div>
+          <h3 class="module-name">Introduction to<br />Maths and Statistics</h3>
+          <p class="module-desc">Mathematical foundations and statistical methods for computer science.</p>
+          <div class="module-stack">
+            <span class="tag tag-sm">Mathematics</span>
+            <span class="tag tag-sm">Statistics</span>
+          </div>
+          <div class="module-arrow">View Module →</div>
+        </a>
+
+        <!-- MOD 03 — Completed -->
+        <a href="module-03-fundamentals-programming.html" class="module-card module-active">
+          <div class="module-status">Completed · 71%</div>
+          <div class="module-number">MOD 03</div>
+          <h3 class="module-name">Fundamentals of<br />Programming</h3>
+          <p class="module-desc">Core programming principles, procedural logic, and algorithmic thinking.</p>
+          <div class="module-stack">
+            <span class="tag tag-sm">Python</span>
+            <span class="tag tag-sm">Algorithms</span>
+          </div>
+          <div class="module-arrow">View Module →</div>
+        </a>
+
+        <!-- MOD 04 — Completed -->
+        <a href="module-04-oop.html" class="module-card module-active">
+          <div class="module-status">Completed · 79%</div>
+          <div class="module-number">MOD 04</div>
+          <h3 class="module-name">Object-oriented<br />Programming</h3>
+          <p class="module-desc">Classes, inheritance, encapsulation, polymorphism and OOP design.</p>
+          <div class="module-stack">
+            <span class="tag tag-sm">Python OOP</span>
+            <span class="tag tag-sm">Design Patterns</span>
+          </div>
+          <div class="module-arrow">View Module →</div>
+        </a>
+
+        <!-- MOD 05 — Not yet taken -->
+        <div class="module-card module-locked">
+          <div class="module-status module-status-soon">Not Yet Taken</div>
+          <div class="module-number">MOD 05</div>
+          <h3 class="module-name">Introduction to<br />Data Modelling</h3>
+          <p class="module-desc">Database design, data structures, and modelling fundamentals.</p>
+          <div class="module-stack">
+            <span class="tag tag-sm">Databases</span>
+            <span class="tag tag-sm">Data Design</span>
+          </div>
+        </div>
+
+        <!-- MOD 06 — In progress -->
+        <div class="module-card module-current">
+          <div class="module-status">In Progress</div>
+          <div class="module-number">MOD 06</div>
+          <h3 class="module-name">Web Application<br />Development</h3>
+          <p class="module-desc">Full-stack web development: HTML5, CSS3, JavaScript, server-side scripting, databases, and security.</p>
+          <div class="module-stack">
+            <span class="tag tag-sm">JavaScript</span>
+            <span class="tag tag-sm">Backend</span>
+            <span class="tag tag-sm">Security</span>
+          </div>
+          <div class="module-pending-note">Current module · Dr Nawaz Khan</div>
+        </div>
+
+        <!-- MOD 07 — Not yet taken -->
+        <div class="module-card module-locked">
+          <div class="module-status module-status-soon">Not Yet Taken</div>
+          <div class="module-number">MOD 07</div>
+          <h3 class="module-name">Fundamentals of<br />Networks</h3>
+          <p class="module-desc">Networking principles, protocols, and the architecture of connected systems.</p>
+          <div class="module-stack">
+            <span class="tag tag-sm">Networking</span>
+            <span class="tag tag-sm">Protocols</span>
+          </div>
+        </div>
+
+        <!-- MOD 08 — Not yet taken -->
+        <div class="module-card module-locked">
+          <div class="module-status module-status-soon">Not Yet Taken</div>
+          <div class="module-number">MOD 08</div>
+          <h3 class="module-name">Digital Systems<br />Fundamentals</h3>
+          <p class="module-desc">Digital logic, computer architecture, and the foundations of computing systems.</p>
+          <div class="module-stack">
+            <span class="tag tag-sm">Architecture</span>
+            <span class="tag tag-sm">Digital Logic</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS OVERVIEW -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section-eyebrow">Skills Matrix</div>
+      <h2 class="section-title">Professional Skills Overview</h2>
+      <p class="section-intro">Skills acquired and demonstrated across the programme so far. This overview is updated as each module is completed and its evidence confirmed.</p>
+
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h4 class="skill-group-title">Academic &amp; Research</h4>
+          <div class="skill-bar-list">
+            <div class="skill-item">
+              <span>Academic Research</span>
+              <div class="skill-bar"><div class="skill-fill" style="width:70%"></div></div>
+              <span class="skill-pct">Proficient</span>
+            </div>
+            <div class="skill-item">
+              <span>Harvard Referencing</span>
+              <div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div>
+              <span class="skill-pct">Proficient</span>
+            </div>
+            <div class="skill-item">
+              <span>Academic Writing</span>
+              <div class="skill-bar"><div class="skill-fill" style="width:65%"></div></div>
+              <span class="skill-pct">Competent</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h4 class="skill-group-title">Programming</h4>
+          <div class="skill-bar-list">
+            <div class="skill-item">
+              <span>Python (Procedural &amp; OOP)</span>
+              <div class="skill-bar"><div class="skill-fill" style="width:76%"></div></div>
+              <span class="skill-pct">Proficient (MOD 03 &amp; 04)</span>
+            </div>
+            <div class="skill-item">
+              <span>HTML5 &amp; CSS3</span>
+              <div class="skill-bar"><div class="skill-fill" style="width:55%"></div></div>
+              <span class="skill-pct">In progress (MOD 06)</span>
+            </div>
+            <div class="skill-item">
+              <span>JavaScript</span>
+              <div class="skill-bar"><div class="skill-fill" style="width:35%"></div></div>
+              <span class="skill-pct">In progress (MOD 06)</span>
+            </div>
+            <div class="skill-item">
+              <span>Algorithms &amp; Data Structures</span>
+              <div class="skill-bar"><div class="skill-fill" style="width:60%"></div></div>
+              <span class="skill-pct">Competent (MOD 03)</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h4 class="skill-group-title">Tools &amp; Practice</h4>
+          <div class="skill-bar-list">
+            <div class="skill-item">
+              <span>Git &amp; GitHub</span>
+              <div class="skill-bar"><div class="skill-fill" style="width:60%"></div></div>
+              <span class="skill-pct">Competent</span>
+            </div>
+            <div class="skill-item">
+              <span>Research Ethics &amp; AI Integrity</span>
+              <div class="skill-bar"><div class="skill-fill" style="width:65%"></div></div>
+              <span class="skill-pct">Competent</span>
+            </div>
+            <div class="skill-item">
+              <span>Reflective Practice</span>
+              <div class="skill-bar"><div class="skill-fill" style="width:55%"></div></div>
+              <span class="skill-pct">Developing</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="skills-note">Note: skill levels reflect confirmed module evidence across the four completed modules (Research &amp; Professional Practice, Maths &amp; Statistics, Fundamentals of Programming, and Object-oriented Programming). Web technologies are in progress in the current module.</p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section-dark" id="contact">
+    <div class="container container-narrow">
+      <div class="section-eyebrow">Contact</div>
+      <h2 class="section-title">Get in touch</h2>
+      <p class="section-intro">For academic collaboration, peer review, or professional enquiries.</p>
+
+      <div class="contact-links">
+        <a href="https://github.com/Henry99s" target="_blank" class="contact-card">
+          <span class="contact-icon">⌥</span>
+          <span class="contact-label">GitHub</span>
+          <span class="contact-value">github.com/Henry99s</span>
+        </a>
+        <a href="https://www.linkedin.com/in/henriquesdealmeida/" target="_blank" class="contact-card">
+          <span class="contact-icon">◈</span>
+          <span class="contact-label">LinkedIn</span>
+          <span class="contact-value">henriquesdealmeida</span>
+        </a>
+        <div class="contact-card">
+          <span class="contact-icon">◎</span>
+          <span class="contact-label">Location</span>
+          <span class="contact-value">Gainsborough, UK</span>
+        </div>
+        <div class="contact-card">
+          <span class="contact-icon">◆</span>
+          <span class="contact-label">Programme</span>
+          <span class="contact-value">CertHE Computer Science</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© 2026 Henrique de Almeida — University of Essex Online</span>
+      <span class="footer-note">e-Portfolio built with HTML, CSS &amp; GitHub Pages</span>
+    </div>
+  </footer>
+
+  <script>
+    const phrases = ['initializing portfolio...', 'loading artefacts...', 'ready.'];
+    let phraseIdx = 0, charIdx = 0, deleting = false;
+    const el = document.getElementById('typed-text');
+    function type() {
+      const current = phrases[phraseIdx];
+      if (!deleting) {
+        el.textContent = current.slice(0, ++charIdx);
+        if (charIdx === current.length) {
+          if (phraseIdx === phrases.length - 1) return;
+          setTimeout(() => { deleting = true; type(); }, 1400);
+          return;
+        }
+      } else {
+        el.textContent = current.slice(0, --charIdx);
+        if (charIdx === 0) { deleting = false; phraseIdx++; }
+      }
+      setTimeout(type, deleting ? 40 : 65);
+    }
+    setTimeout(type, 800);
+
+    window.addEventListener('scroll', () => {
+      document.getElementById('nav').classList.toggle('nav-scrolled', window.scrollY > 40);
+    });
+    document.querySelector('.nav-toggle').addEventListener('click', () => {
+      document.querySelector('.nav-links').classList.toggle('nav-open');
+    });
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.querySelectorAll('.skill-fill').forEach(bar => {
+            const w = bar.getAttribute('style').match(/width:([\d%]+)/)[1];
+            bar.style.width = '0';
+            requestAnimationFrame(() => { bar.style.width = w; });
+          });
+        }
+      });
+    }, { threshold: 0.3 });
+    document.querySelectorAll('.skills-grid').forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>
